@@ -18,7 +18,6 @@ function Navigation(): JSX.Element {
       </div>
 
       <div className="row-span-8 w-[98%] p-2">
-        {/* Home */}
         <ul
           onClick={() => handleRoute("/home")}
           className="cursor-pointer grid grid-flow-col grid-col-3 items-center mt-1"
@@ -32,7 +31,6 @@ function Navigation(): JSX.Element {
           </div>
         </ul>
 
-        {/* Downloads */}
         <ul
           onClick={() => handleRoute("/downloads")}
           className=" cursor-pointer mt-5 grid grid-flow-col grid-col-3 items-center"
@@ -44,7 +42,6 @@ function Navigation(): JSX.Element {
           </div>
         </ul>
 
-        {/* Settings */}
         <ul
           onClick={() => handleRoute("settings")}
           className=" cursor-pointer mt-5 grid grid-flow-col grid-col-3 items-center"
